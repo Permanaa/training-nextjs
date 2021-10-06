@@ -1,5 +1,9 @@
+import Layout from '../layout'
+
 export default function Blog() {
   return (
-    <h1>Blog Page</h1>
+    <Layout>
+      <h1>Blog Page</h1>
+    </Layout>
   )
 }
